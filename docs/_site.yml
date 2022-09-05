@@ -1,0 +1,13 @@
+
+name: "Gyane's Website"
+navbar:
+  title: "Gyane's Website"
+  left:
+    - text: "Home"
+      href: index.html
+    - text: "Female Political Participation"
+      href: Female.html
+    - text: "About"
+      href: about.html
+output_dir: "docs"
+

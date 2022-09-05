@@ -1,0 +1,26 @@
+---
+title: "About"
+output: 
+  html_document:
+    theme: journal    
+       
+---
+
+
+![Andrews Odame Gyane](C:\Users\Andre\Documents\GitHub\MyProject-Website\FIRST\Analysis\Andre1.jpg){ width=40% }
+
+\
+
+#### *A Data Analyst and Social Scientist*
+
+
+Andrews Odame Gyane is a data enthusiast and social scientist. Gyane holds a degree in B.A. Political Studies from Kwame Nkrumah University of Science and Technology(KNUST). He has completed the Google Data Analytics Professional Certificate Program on Coursera.
+
+  [Click here to view my linkedin profile](https://www.linkedin.com/in/andrews-odame-gyane-3535aa226/)
+
+\
+
+#### *A violinist*
+Aside being a data analyst and a social scientist, Gyane is a violinist who has trained many young people to play the violin. He has performed on several platforms and looks forward to advancing the use of violin in the African music industry.
+
+
