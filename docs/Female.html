@@ -1,0 +1,883 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>FEMALE POLITICAL PARTICIPATION: A CASE STUDY OF KNUST</title>
+
+<script src="site_libs/header-attrs-2.16/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/journal.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
+<script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
+<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
+<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+<style type="text/css">code{white-space: pre;}</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+
+
+
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
+}
+pre code {
+  padding: 0;
+}
+</style>
+
+
+<style type="text/css">
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #adb5bd;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script type="text/javascript">
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+<style type="text/css">
+
+#TOC {
+  margin: 25px 0px 20px 0px;
+}
+@media (max-width: 768px) {
+#TOC {
+  position: relative;
+  width: 100%;
+}
+}
+
+@media print {
+.toc-content {
+  /* see https://github.com/w3c/csswg-drafts/issues/4434 */
+  float: right;
+}
+}
+
+.toc-content {
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+div.main-container {
+  max-width: 1200px;
+}
+
+div.tocify {
+  width: 20%;
+  max-width: 260px;
+  max-height: 85%;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  div.tocify {
+    width: 25%;
+  }
+}
+
+@media (max-width: 767px) {
+  div.tocify {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+.tocify ul, .tocify li {
+  line-height: 20px;
+}
+
+.tocify-subheader .tocify-item {
+  font-size: 0.90em;
+}
+
+.tocify .list-group-item {
+  border-radius: 0px;
+}
+
+
+</style>
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+<!-- setup 3col/9col grid for toc_float and main content  -->
+<div class="row">
+<div class="col-xs-12 col-sm-4 col-md-3">
+<div id="TOC" class="tocify">
+</div>
+</div>
+
+<div class="toc-content col-xs-12 col-sm-8 col-md-9">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Gyane's Website</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="index.html">Home</a>
+</li>
+<li>
+  <a href="Female.html">Female Political Participation</a>
+</li>
+<li>
+  <a href="about.html">About</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div id="header">
+
+
+
+<h1 class="title toc-ignore">FEMALE POLITICAL PARTICIPATION: A CASE
+STUDY OF KNUST</h1>
+
+</div>
+
+
+<p><br />
+</p>
+<div id="introduction" class="section level1">
+<h1>INTRODUCTION</h1>
+<p>This project is a further analysis of a research data that was
+originally collected and analysed in 2021 by four KNUST final year
+political studies student researchers - including me. The data was
+originally analysed using SPSS. The original research (under the title:
+<em>IMPACT OF DESCRIPTIVE REPRESENTATION ON FEMALE POLITICAL
+PARTICIPATION: A CASE STUDY OF KNUST</em> ) sought to:</p>
+<ol style="list-style-type: lower-alpha">
+<li>Identify whether females get support from their colleague’s females
+when contesting for leadership positions.</li>
+<li>Identify whether females get motivated by their fellow females in
+leadership positions to also participate in politics.</li>
+<li>Identify some barriers to female participation in campus
+politics.</li>
+</ol>
+<div id="permission" class="section level3">
+<h3>Permission</h3>
+<p>With the permission of my three other colleague researchers, I
+undertake this further analysis of the data using R studio. I aim at
+identifying new insights aside the ones discovered in the original
+project. Also, I aim at exploring the capabilities of the R programming
+language in social science data analysis.</p>
+</div>
+<div id="processing-data" class="section level3">
+<h3>Processing data</h3>
+<p>The data was originally collected using online Google forms
+questionnaire. The data was then downloaded in a CSV file format and
+cleaned using Microsoft Excel. The data was then imported into the R
+Studio Environment for analysis</p>
+</div>
+</div>
+<div id="research-questions-and-objectives" class="section level1">
+<h1>RESEARCH QUESTIONS AND OBJECTIVES</h1>
+<p>The research questions this analysis seeks to answer are:</p>
+<ol style="list-style-type: decimal">
+<li>How do females perceive themselves in politics?</li>
+<li>How do females in KNUST engage in politics?</li>
+</ol>
+<div
+id="objective-1-perception-of-females-about-themselves-in-politics."
+class="section level2">
+<h2>OBJECTIVE 1: Perception of females about themselves in
+politics.</h2>
+<p>To identify the trends in how females think about themselves as
+political beings, I analyse the responses that were given by female
+respondents indicating their level of agreement(Strongly Disagree,
+Disagree, Neutral, Agree, Strongly agree) to the following
+statements;</p>
+<ol style="list-style-type: lower-alpha">
+<li>Women are subordinate to men</li>
+<li>Men are leaders, women are followers</li>
+<li>Men are better leaders than women</li>
+<li>Men are more intelligent than women</li>
+<li>Female should be allowed in decision-making.</li>
+<li>Women should hold leadership positions</li>
+</ol>
+<p>In addition to the above statements, respondents are asked to
+indicate their level of agreement with the statement; <em>Females in
+KNUST participate actively in politics</em>. This is to identify the
+correlation between how females perceive themselves in politics and how
+practical they are in politics.</p>
+<div id="coding" class="section level3">
+<h3>CODING</h3>
+<p>To analyse the responses to the statements above, codes are written
+to organize the data and then display plots that represent each of the
+above statements. Below are the series of codes used to analyse the
+first statement. The remaining five statements will be analysed with
+similar codes.</p>
+<ul>
+<li><em>CODE 1: This code will filter the data to show responses that
+only females gave to the statement “women are subordinate to
+men”</em></li>
+</ul>
+<pre><code>Female_Pol %&gt;% 
+  filter(Gender == &quot;Female&quot;) %&gt;% 
+  group_by(Women_subordinated_to_men )%&gt;%   
+  count(Women_subordinated_to_men) %&gt;% 
+  arrange(n)
+</code></pre>
+<p><br />
+</p>
+<ul>
+<li><em>CODE 2: This code will create a new dataframe(dataset) for the
+filtered data. This will make analysis simpler.</em></li>
+</ul>
+<pre><code>Perception_1a &lt;- Female_Pol %&gt;% 
+  filter(Gender == &quot;Female&quot;) %&gt;% 
+  group_by(Women_subordinated_to_men )%&gt;%   
+  count(Women_subordinated_to_men) %&gt;% 
+  arrange(n)</code></pre>
+<p><br />
+</p>
+<ul>
+<li><em>CODE 3: This code will re-arrange the the the contents of the x
+axis of the plot to be made. The plots will be ordered to display the
+responses from “Strongly disagree” to “Strongly agree” (from left to
+right).</em></li>
+</ul>
+<pre><code>Perception_1a$Women_subordinated_to_men &lt;- factor(Perception_1a$Women_subordinated_to_men, levels = c(&quot;Strongly disagree&quot;, &quot;Disagree&quot;, &quot;Neutral&quot;, &quot;Agree&quot;, &quot;Strongly agree&quot;))</code></pre>
+<p><br />
+</p>
+<ul>
+<li><em>CODE 4: This code will generate a bar graph displaying the
+responses of females on the statement indicated.</em></li>
+</ul>
+<pre><code>ggplot(data = Perception_1a)+geom_col(mapping = aes(x= Women_subordinated_to_men, y = n, fill= Women_subordinated_to_men))</code></pre>
+<p><br />
+</p>
+<div id="a.-women-are-subordinate-to-men" class="section level4">
+<h4><strong>1a. Women are subordinate to men</strong></h4>
+<pre><code>## # A tibble: 4 x 2
+## # Groups:   Women_subordinated_to_men [4]
+##   Women_subordinated_to_men     n
+##   &lt;chr&gt;                     &lt;int&gt;
+## 1 Agree                        13
+## 2 Neutral                      13
+## 3 Disagree                     15
+## 4 Strongly disagree            24</code></pre>
+<p><img src="Female_files/figure-html/unnamed-chunk-1-1.png" width="672" /></p>
+<p><br />
+</p>
+</div>
+<div id="b.-men-are-leaders-women-are-followers" class="section level4">
+<h4><strong>1b. Men are leaders, women are followers</strong></h4>
+<pre><code>## # A tibble: 4 x 2
+## # Groups:   Men_lead_women_follow [4]
+##   Men_lead_women_follow     n
+##   &lt;chr&gt;                 &lt;int&gt;
+## 1 Agree                     2
+## 2 Neutral                   6
+## 3 Disagree                 17
+## 4 Strongly disagree        40</code></pre>
+<p><img src="Female_files/figure-html/unnamed-chunk-2-1.png" width="672" /></p>
+<p><br />
+</p>
+</div>
+<div id="c.-men-are-better-leaders-than-women" class="section level4">
+<h4><strong>1c. Men are better leaders than women</strong></h4>
+<pre><code>## # A tibble: 4 x 2
+## # Groups:   Men_lead_better [4]
+##   Men_lead_better       n
+##   &lt;chr&gt;             &lt;int&gt;
+## 1 Agree                 1
+## 2 Neutral               7
+## 3 Disagree             19
+## 4 Strongly disagree    38</code></pre>
+<p><img src="Female_files/figure-html/unnamed-chunk-3-1.png" width="672" /></p>
+<p><br />
+</p>
+</div>
+<div id="d.-men-are-more-intelligent-than-women" class="section level4">
+<h4><strong>1d. Men are more intelligent than women</strong></h4>
+<pre><code>## # A tibble: 4 x 2
+## # Groups:   Men_more_intelligent [4]
+##   Men_more_intelligent     n
+##   &lt;chr&gt;                &lt;int&gt;
+## 1 Agree                    1
+## 2 Neutral                  4
+## 3 Disagree                12
+## 4 Strongly disagree       48</code></pre>
+<p><img src="Female_files/figure-html/unnamed-chunk-4-1.png" width="672" /></p>
+<p><br />
+</p>
+</div>
+<div id="e.-female-should-be-allowed-in-decision-making"
+class="section level4">
+<h4><strong>1e. Female should be allowed in
+decision-making</strong></h4>
+<pre><code>## # A tibble: 4 x 2
+## # Groups:   Allow_women_in_decision_making [4]
+##   Allow_women_in_decision_making     n
+##   &lt;chr&gt;                          &lt;int&gt;
+## 1 Strongly disagree                  1
+## 2 Neutral                            4
+## 3 Agree                             19
+## 4 Strongly Agree                    41</code></pre>
+<p><img src="Female_files/figure-html/unnamed-chunk-5-1.png" width="672" /></p>
+<p><br />
+</p>
+</div>
+<div id="f.-women-should-hold-leadership-positions"
+class="section level4">
+<h4><strong>1f. Women should hold leadership positions</strong></h4>
+<pre><code>## # A tibble: 5 x 2
+## # Groups:   Women_should_lead [5]
+##   Women_should_lead     n
+##   &lt;chr&gt;             &lt;int&gt;
+## 1 Disagree              1
+## 2 Strongly disagree     2
+## 3 Neutral               4
+## 4 Agree                17
+## 5 Strongly Agree       41</code></pre>
+<p><img src="Female_files/figure-html/unnamed-chunk-6-1.png" width="672" /></p>
+<p><br />
+</p>
+</div>
+<div id="g.-are-knust-female-students-active-in-politics"
+class="section level4">
+<h4><strong>1g. Are KNUST Female students active in
+politics?</strong></h4>
+<pre><code>## # A tibble: 5 x 2
+## # Groups:   KNUST_female_students_active_in_politics [5]
+##   KNUST_female_students_active_in_politics     n
+##   &lt;chr&gt;                                    &lt;int&gt;
+## 1 Agree                                       18
+## 2 Disagree                                     6
+## 3 Neutral                                     29
+## 4 Strongly Agree                               9
+## 5 Strongly disagree                            3</code></pre>
+<p><img src="Female_files/figure-html/unnamed-chunk-7-1.png" width="672" /></p>
+<p><br />
+</p>
+</div>
+</div>
+<div id="summary-how-do-females-perceive-themselves-in-politics"
+class="section level3">
+<h3>SUMMARY: How do females perceive themselves in politics?</h3>
+<p>Generally, the data depicts females as having a very positive picture
+about themselves in politics. Most females strongly believe that females
+should be allowed in decision-making and that females should hold
+leadership positions. Most females therefore, strongly reject the
+notions that;</p>
+<ul>
+<li>Men are leaders, women are followers</li>
+<li>Men are better leaders than women</li>
+<li>Men are more intelligent than women</li>
+</ul>
+<p>The conflicting argument however, revolves around two issues: (1) the
+perception of women about their being subordinate to men and (2) females
+activeness in practical politics. Although majority of females indicate
+that their strong conviction they are not subordinate to men, quite a
+number rather perceive themselves(though not with strong conviction) as
+being subordinates to men. Others also indicate their neutrality in the
+issue.</p>
+<p>It is one thing that only a few female respondents register their
+disagreement with the assertion that KNUST female students are active in
+politics. It however is, another thing that many females choose
+neutrality with this assertion. This suggests that although females are
+politically active, ‘very’ cannot be easily used to qualify their
+political engagement.</p>
+<p>In general, it could be said of KNUST female students that they do
+not regard themselves to be far from politics. Females see themselves as
+political beings.</p>
+<p><br />
+</p>
+</div>
+</div>
+<div id="objective-2-how-females-engage-in-politics."
+class="section level2">
+<h2>OBJECTIVE 2: How females engage in politics.</h2>
+<p>In order to analyse how females engage in politics on KNUST campus,
+respondents were asked to indicate their modes of political engagement.
+From the seven modes of political engagement (listed below) provided,
+each respondent was to indicate all the modes through which she
+participated in politics on campus.</p>
+<ul>
+<li>Voting</li>
+<li>Campaigning</li>
+<li>Contacting student leaders</li>
+<li>Financially supporting candidates</li>
+<li>Attending political meetings</li>
+<li>Contesting for leadership positions</li>
+<li>Protesting</li>
+</ul>
+<div id="coding-1" class="section level3">
+<h3>CODING</h3>
+<p>To analyse the responses to the statements above, codes are written
+to organize the data and display plots that represent each of the above
+modes of political participation. Below are the series of codes used to
+analyse the second objective of this re-analysis.</p>
+<ul>
+<li><em>CODE 1: This code will filter the data to show the frequency of
+voting as a mode of females’ political engagement. This code will be
+repeated for the other modes.</em></li>
+</ul>
+<pre><code>Female_Pol %&gt;% 
+  filter(Gender == &quot;Female&quot; &amp; political_engagement_vote == &quot;Yes&quot;) %&gt;% 
+  group_by(political_engagement_vote) %&gt;% 
+  count(political_engagement_vote)</code></pre>
+<p><br />
+</p>
+<ul>
+<li><em>CODE 2: This code will create a new dataframe that maps each
+mode of political engagement to it’s respective frequency((derived from
+only females’ respondents).</em></li>
+</ul>
+<pre><code>Mode &lt;- c(&quot;Protest&quot;, &quot;Fin.support&quot;, &quot;Contest&quot;, &quot;Meet&quot;, &quot;Contact&quot;, &quot;Campaign&quot;, &quot;Vote&quot;)
+count &lt;- c(1, 7, 8, 9, 15, 31, 58)
+Politics_Mode &lt;- data_frame(Mode, count)</code></pre>
+<p><br />
+</p>
+<ul>
+<li><em>CODE 3: This code will generate a bar graph displaying the modes
+of political engagements on the x axis and their respective frequencies
+on the y axis.</em></li>
+</ul>
+<pre><code>ggplot(data = Politics_Mode)+
+  geom_col(mapping = aes(x = Mode, y = count, fill = Mode))</code></pre>
+<p><br />
+</p>
+<div id="voting-vote" class="section level4">
+<h4><strong>Voting</strong> <em>(Vote)</em></h4>
+<pre><code>## # A tibble: 1 x 2
+## # Groups:   political_engagement_vote [1]
+##   political_engagement_vote     n
+##   &lt;chr&gt;                     &lt;int&gt;
+## 1 Yes                          58</code></pre>
+<p><br />
+</p>
+</div>
+<div id="campaigning-campaign" class="section level4">
+<h4><strong>Campaigning</strong> <em>(Campaign)</em></h4>
+<pre><code>## # A tibble: 1 x 2
+## # Groups:   political_engagement_campaign [1]
+##   political_engagement_campaign     n
+##   &lt;chr&gt;                         &lt;int&gt;
+## 1 Yes                              31</code></pre>
+<p><br />
+</p>
+</div>
+<div id="contacting-student-leaders-contact" class="section level4">
+<h4><strong>Contacting student leaders</strong> <em>(Contact)</em></h4>
+<pre><code>## # A tibble: 1 x 2
+## # Groups:   political_engagement_contacting_leaders [1]
+##   political_engagement_contacting_leaders     n
+##   &lt;chr&gt;                                   &lt;int&gt;
+## 1 Yes                                        15</code></pre>
+<p><br />
+</p>
+</div>
+<div id="financially-supporting-candidates-fin.support"
+class="section level4">
+<h4><strong>Financially supporting candidates</strong>
+<em>(Fin.support)</em></h4>
+<pre><code>## # A tibble: 1 x 2
+## # Groups:   political_engagement_financial_support [1]
+##   political_engagement_financial_support     n
+##   &lt;chr&gt;                                  &lt;int&gt;
+## 1 Yes                                        7</code></pre>
+<p><br />
+</p>
+</div>
+<div id="attending-political-meetings-meet" class="section level4">
+<h4><strong>Attending political meetings</strong> <em>(Meet)</em></h4>
+<pre><code>## # A tibble: 1 x 2
+## # Groups:   political_engagement_attending_political_meetings [1]
+##   political_engagement_attending_political_meetings     n
+##   &lt;chr&gt;                                             &lt;int&gt;
+## 1 Yes                                                   9</code></pre>
+<p><br />
+</p>
+</div>
+<div id="contesting-for-leadership-positions-contest"
+class="section level4">
+<h4><strong>Contesting for leadership positions</strong>
+<em>(Contest)</em></h4>
+<pre><code>## # A tibble: 1 x 2
+## # Groups:   political_engagement_contest [1]
+##   political_engagement_contest     n
+##   &lt;chr&gt;                        &lt;int&gt;
+## 1 Yes                              8</code></pre>
+<p><br />
+</p>
+</div>
+<div id="protesting-protest" class="section level4">
+<h4><strong>Protesting</strong> <em>(Protest)</em></h4>
+<pre><code>## # A tibble: 1 x 2
+## # Groups:   political_engagement_protest [1]
+##   political_engagement_protest     n
+##   &lt;chr&gt;                        &lt;int&gt;
+## 1 Yes                              1</code></pre>
+<p><br />
+</p>
+<p><br />
+</p>
+<p><img src="Female_files/figure-html/unnamed-chunk-16-1.png" width="672" /></p>
+<p><br />
+</p>
+</div>
+</div>
+<div id="summary-how-do-females-in-knust-engage-in-politics"
+class="section level3">
+<h3>SUMMARY: How do females in KNUST engage in politics?</h3>
+<p>The data reveals that females participate in politics through all the
+seven modes provided. As portrayed in the plot, females mostly
+participate in politics through voting. They barely participate in
+politics through protests.</p>
+<p>A review of the plot below reveals that although voting is the mostly
+used mode of political participation by females, most females vote
+during a few elections during their stay on campus. Ideally, at level
+300, a student must have engaged in more than 10 campus elections. The
+data, however, shows that most level 300 and 400 students as well as
+National Service personnel(with more than four years stay on campus)
+have voted only two to five times.</p>
+<p><img src="Female_files/figure-html/unnamed-chunk-17-1.png" width="672" /></p>
+<pre><code>## # A tibble: 17 x 3
+##    No_of_times_voting University_Level     n
+##    &lt;fct&gt;              &lt;chr&gt;            &lt;int&gt;
+##  1 0                  100                  1
+##  2 0                  300                  1
+##  3 0                  400                  2
+##  4 1 *                100                  1
+##  5 1 *                200                  4
+##  6 1 *                400                  5
+##  7 15 - 20 *          300                  1
+##  8 2 - 5 *            100                  4
+##  9 2 - 5 *            200                  7
+## 10 2 - 5 *            300                 14
+## 11 2 - 5 *            400                 16
+## 12 2 - 5 *            National Service     2
+## 13 2 - 5 *            Postgraduate         2
+## 14 20 +               National Service     1
+## 15 6 - 10 *           300                  1
+## 16 6 - 10 *           400                  2
+## 17 6 - 10 *           Postgraduate         1</code></pre>
+<p><em>The series of codes that generates the table and plot above are
+similar to the ones used in objective 1.</em></p>
+<p><br />
+</p>
+</div>
+</div>
+</div>
+<div id="remarks" class="section level1">
+<h1>REMARKS</h1>
+<p>Amidst the vibrancy of campus politics, the political development of
+females cannot be overlooked. At the phase where they are been prepared
+to come out as intellectuals to the benefit of society, females should
+make conscious efforts to participate actively in politics. That
+politics is in the domain of men only is an archaic concept. Females in
+higher educational institutions should be prepared to positively impact
+the politics of their respective societies.</p>
+<div id="remarks-on-r" class="section level3">
+<h3>Remarks On R</h3>
+<p>Through this projects, the R programming language has been
+demonstrated as a potential tool for data analysis in the field of
+social science. It’s capabilities offer social science researchers a
+flexibility in quantitative data analysis.</p>
+<p><br />
+</p>
+<p><br />
+</p>
+<p><br />
+</p>
+<p><br />
+</p>
+</div>
+</div>
+
+
+
+</div>
+</div>
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open');
+  });
+});
+</script>
+
+<!-- code folding -->
+
+<script>
+$(document).ready(function ()  {
+
+    // temporarily add toc-ignore selector to headers for the consistency with Pandoc
+    $('.unlisted.unnumbered').addClass('toc-ignore')
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2,h3",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_');
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = true;
+    options.smoothScroll = true;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>
