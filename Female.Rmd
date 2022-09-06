@@ -5,6 +5,9 @@ output:
     theme: journal
     toc: true
     toc_float: true
+    collapsed: false
+    number_sections: false
+    #code_folding: hide
 ---
 
 ```{r setup, include=FALSE}
@@ -14,7 +17,6 @@ library(janitor)
 library(readr)
 library(readxl)
 library(skimr)
-library(palmerpenguins)
 Female_Pol <- read.csv("Final_Year_Research.csv")
 ```
 
@@ -432,17 +434,3 @@ Amidst the vibrancy of campus politics, the political development of females can
 
 ### Remarks On R
 Through this projects, the R programming language has been demonstrated as a potential tool for data analysis in the field of social science. It's capabilities offer social science researchers a flexibility in quantitative data analysis.
-
-
-
-
-
-\
-
-\
-
-\
-
-\
-
-
